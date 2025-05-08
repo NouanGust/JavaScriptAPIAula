@@ -12,7 +12,7 @@ body {
         text-shadow: 2px 2px 4px #000000b4;
     }
 
-    #facts {
+    #fatos {
         font-size: 1.2em;
         background-color: #C151DB;
         padding: 20px;
@@ -20,7 +20,7 @@ body {
         box-shadow: 5px 5px 4px #c251db67;
     }
 
-    #get_fact {
+    #btn_pegar_fatos {
         border: none;
         outline: none;
         border-radius: 5px;
@@ -31,10 +31,16 @@ body {
         font-weight: bold;
         opacity: .7;
         font-size: 1em;
+        margin: 10px;
     }
 
-    #get_fact:hover {
+    #btn_pegar_fatos:hover {
         opacity: 1;
+    }
+
+    #foto {
+        /* width: clamp(200px, 50%, 400px);
+        width: clamp(400px, 50%, 600px); */
     }
 }
 
